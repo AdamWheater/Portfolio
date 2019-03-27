@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Portfolio Website/Landing Page - Bootstrap/JQuery/HTML/CSS</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="description" content="I'm a front-end developer based in Hereford, UK. Avid self-learner, proactive, organized and dedicated to everything I do.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FAVICONS -->
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link href="favicon.ico" rel="shortcut icon">
+  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat:400,700'>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,700'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.2/css/all.css'>
+
+
+      <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+
+
+    <!-- PRELOADER -->
+<div id="preloader">
+	<div id="status">&nbsp;</div>
+</div>
+
+<!-- TITLE -->
+<a href="javascript:" id="return-to-top"><span class="fa fa-arrow-up" aria-hidden="true"></span></a>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+  <div class="navbar-header">
+    <a class="navbar-brand" href="#about">
+    </a>
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#ResponsiveNav">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+  </div>
+    <div class="collapse navbar-collapse navbar-right" id="ResponsiveNav">
+      <ul class="nav navbar-nav">
+        <li><a href="#about-me" class="page-scroll">ABOUT</a></li>
+        <li><a href="#portfolio" class="page-scroll">PORTFOLIO</a></li>
+        <li><a href="#services" class="page-scroll">SERVICES</a></li>
+        <li><a href="#contact" class="page-scroll">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- INTRO -->
+<header class="intro">
+  <div class="intro-body">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+
+        <!-- start typer hello  -->
+        <div class="brand-heading">
+        	<span class="txt-rotate" data-period="200" data-rotate='[ "Hello,", "Hiya,", "Hi,","Hola,"]'></span>
+        </div>
+
+        <!-- end typer hello -->
+        <p class="intro-text">My name is Adam Wheater.
+        	<br> I'm a <span class="fa fa-code" aria-hidden="true"></span> <span class="intro-text-hgl">front-end developer</span> <span class="fa fa-code" aria-hidden="true"></span>
+        	<br>based in the beautiful city of <span class="city">Hereford</span>, UK.</p>
+
+        <!-- start mouse wrap -->
+          <div class="mouse-warp">
+          	<a href="#mouse-here" class="page-scroll">
+          		<div class="mouse">
+          			<div class="scroll"></div>
+          		</div>
+          	</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ABOUT-ME -->
+<section id="about-me">
+	<div class="container">
+    <div id="mouse-here"></div>
+			<div class="row">
+				<h2>ABOUT</h2>
+				<div class="col-lg-6 about-intro">
+					<div class="about-inner">
+						<div class="about-ct">
+							<img src="https://i.ibb.co/x7kJfMb/Me.png" alt="Adam Wheater" class="img-responsive">
+							<div class="textbox-about hidden-xs">
+								<div class="btn button-social">
+									<a href="https://codepen.io/adamwheater" target="_blank"><span class="fab fa-codepen" aria-hidden="true"></span></a>
+									<a href="https://www.linkedin.com/in/adamwheater/" target="_blank"><span class="fab fa-linkedin" aria-hidden="true"></span></a>
+									<a href="https://github.com/AdamWheater" target="_blank"><span class="fab fa-github" aria-hidden="true"></span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 about-intro-text">
+				<div class="text-block-about"><p>I'm a <span>front-end developer</span> and a <span>cybersecurity enthusiast</span>.<br>I'm currently completing a degree in D&T Solutions Professional specialising in CyberSecurity.
+         <br><br>I got into coding, when I wanted to learn something new, something that I could got wild with...
+         <br><br>Now I'm creating websites for the company I work for and many more. My aim is to ensure that the websites not only look pleasing, it's to make sure they deliver on functionality as well.
+         <br><br>Due to my CyberSecurity background I ensure that the best web security practises are in place. Leaving one happy customer</p></div>
+					<div class="button-group">
+						<div class="text">Download CV</div>
+					  <div class="icon-cv"><a href="#" target="_blank"><span class="fas fa-arrow-circle-down" aria-hidden="true"></span></a></div>
+				  </div>
+			  </div>
+		  </div>
+	</div>
+</section>
+
+<!-- COUNTER -->
+<section id="counter-stats">
+	<div class="container">
+		<div class="row">
+        <h2>STATS</h2>
+			<div class="col-lg-3 stats">
+				<span class="fa fa-code" aria-hidden="true"></span>
+				<div class="counter" data-count="12000">0</div>
+				<h5>Lines of code</h5>
+			</div>
+
+			<div class="col-lg-3 stats">
+				<span class="fa fa-check" aria-hidden="true"></span>
+				<div class="counter" data-count="28">0</div>
+				<h5>Projects done</h5>
+			</div>
+
+			<div class="col-lg-3 stats">
+				<span class="fa fa-user" aria-hidden="true"></span>
+				<div class="counter" data-count="10">0</div>
+				<h5>Happy clients</h5>
+			</div>
+
+			<div class="col-lg-3 stats">
+				<span class="fa fa-coffee" aria-hidden="true"></span>
+				<div class="counter">Too Many</div>
+				<h5>Cups of coffee</h5>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="container">
+    <h2>EXPERIENCE</h2>
+
+    <div class="experience-ct">
+      <div class="row">
+
+          <!-- LEFT-LABLE -->
+          <div class="col-md-6 timeline-label">
+            <h4>Key Areas</h4>
+              <p>Specialising in security, Joomla development, SEO improvements.</p>
+  							<ul class="portfolio-tags">
+  								<li class="portfolio-tag">HTML5 / CSS3</li>
+  								<li class="portfolio-tag">SECURITY</li>
+  								<li class="portfolio-tag">BOOTSTRAP</li>
+  								<li class="portfolio-tag">JAVASCRIPT</li>
+  								<li class="portfolio-tag">JOOMLA</li>
+  								<li class="portfolio-tag">SEO</li>
+  							</ul>
+
+            <a href="https://www.linkedin.com/in/adamwheater/" target="_blank">
+              <div class="button-group-li">
+                <div class="text-timeline">View on LinkedIn</div>
+                <div class="icon-li"><span class="fab fa-linkedin" aria-hidden="true"></span></div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-6 timeline col-exp">
+            <div class="timeline-year">
+
+            <!-- 1-EXP -->
+              <time datetime="2016">2018</time>
+                <div class="timeline-experience">
+                  <span class="timeline-circle"></span>
+                  <div class="timeline-experience-img"><img src="https://i.ibb.co/5BCzjx1/Email-Signature.png" alt="Redcello"></div>
+                  <div class="timeline-experience-info clear-after">
+                    <h5>Redcello</h5>
+                    <div class="timeline-role">R&D Cyber Security at Redcello Ltd</div>
+                    <p>Jan 2018 - Present</p>
+                  </div>
+                </div>
+
+              <!-- 2-EXP -->
+              <time datetime="2016">2017</time>
+                <div class="timeline-experience">
+                  <span class="timeline-circle"></span>
+                  <div class="timeline-experience-img"><img src="https://i.ibb.co/nz0xbj2/Pressed-For-Time.png" alt="Pressed For Time Bedford"></div>
+                  <div class="timeline-experience-info clear-after">
+                    <h5>Pressed For Time Bedford</h5>
+                    <div class="timeline-role">Front-End developer for Pressed For Time Bedford</div>
+                    <p>Dec 2017 - Present</p>
+                  </div>
+                </div>
+
+              <!-- 3-EXP -->
+              <time datetime="2016">2016</time>
+                <div class="timeline-experience">
+                  <span class="timeline-circle"></span>
+                  <div class="timeline-experience-img"><img src="https://i.ibb.co/qWDphWL/ecumaster-logo.png" alt="ECUMASTER UK"></div>
+                  <div class="timeline-experience-info clear-after">
+                    <h5>ECUMASTER UK</h5>
+                    <div class="timeline-role">Front-End developer for ECUMASTER UK</div>
+                    <p>March 2016 - Present</p>
+                  </div>
+                </div>
+
+            </div>
+          </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section id="portfolio">
+  <div class="container-fluid portfolio-ct">
+    <h2>PORTFOLIO</h2>
+
+      <div class="row">
+      <!-- 1 -->
+        <div class="col-md-4 grid-portfolio">
+          <div class="portfolio-item-ct">
+            <div class="thumbnail">
+              <img src="https://i.ibb.co/4Fsj2kn/ECUMASTER.png" alt="Portfolio - ECUMASTER UK" class="img-responsive">
+              <div class="textbox-portfolio">
+                <div class="button-weblink">
+                  <a href="http://www.ecumaster.esy.es" target="_blank"><span class="fa fa-link portfolio-link" aria-hidden="true"></span></a>
+                </div>
+              </div>
+          </div>
+
+          <div class="caption portfolio-details">
+            <h3>ECUMaster</h3>
+            <p>Responsive website done for ECUMASTER UK using Joomla.
+              <br>Based on Wunderlust Theme. Many adjustments based on customers liking.
+              <br>Ionicons, Bootstrap, JavaScript and More.
+            </p>
+            <ul class="portfolio-tags">
+              <li class="portfolio-tag">JOOMLA</li>
+              <li class="portfolio-tag">WUNDERLUST THEME</li>
+              <li class="portfolio-tag">SEO</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+      <!-- 2 -->
+        <div class="col-md-4 grid-portfolio">
+          <div class="portfolio-item-ct">
+            <div class="thumbnail">
+              <img src="https://i.ibb.co/M15L2M3/Redcello.png" alt="Portfolio - ECUMASTER UK" class="img-responsive">
+              <div class="textbox-portfolio">
+                <div class="button-weblink">
+                  <a href="https://www.redcello.co.uk" target="_blank"><span class="fa fa-link portfolio-link" aria-hidden="true"></span></a>
+                </div>
+              </div>
+          </div>
+
+          <div class="caption portfolio-details">
+            <h3>Redcello</h3>
+            <p>Responsive website done for Redcello using Joomla.
+              <br>Based on Wunderlust Theme.
+              <br>Ionicons, Bootstrap, JavaScript and More.
+            </p>
+            <ul class="portfolio-tags">
+              <li class="portfolio-tag">HTML/CSS</li>
+              <li class="portfolio-tag">WUNDERLUST THEME</li>
+              <li class="portfolio-tag">SEO</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+      <!-- 3 -->
+        <div class="col-md-4 grid-portfolio">
+          <div class="portfolio-item-ct">
+            <div class="thumbnail">
+              <img src="https://i.ibb.co/vq3MhsB/Pressed-Fortime.png" alt="Portfolio - ECUMASTER UK" class="img-responsive">
+              <div class="textbox-portfolio">
+                <div class="button-weblink">
+                  <a href="http://www.pressedfortimebedford.com/contact" target="_blank"><span class="fa fa-link portfolio-link" aria-hidden="true"></span></a>
+                </div>
+              </div>
+          </div>
+
+          <div class="caption portfolio-details">
+            <h3>Pressed For Time Bedford</h3>
+            <p>Responsive website done for Pressed For Time Bedford using Joomla.
+              <br>Based on Wunderlust Theme. Many adjustments based on customers liking.
+              <br>Ionicons, Bootstrap, JavaScript and More.
+            </p>
+            <ul class="portfolio-tags">
+              <li class="portfolio-tag">JQUERY</li>
+              <li class="portfolio-tag">BOOTSTRAP</li>
+              <li class="portfolio-tag">SEO</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+    <!-- 1 -->
+      <div class="col-md-6 grid-portfolio">
+        <div class="portfolio-item-ct">
+          <div class="thumbnail">
+            <img src="https://i.ibb.co/LNVLtjZ/portfolio.png" alt="Portfolio - ECUMASTER UK" class="img-responsive">
+            <div class="textbox-portfolio">
+              <div class="button-weblink">
+                <a href="#" target="_blank"><span class="fa fa-link portfolio-link" aria-hidden="true"></span></a>
+              </div>
+            </div>
+        </div>
+
+        <div class="caption portfolio-details">
+          <h3>Portfolio Website</h3>
+          <p>Responsive website based on a Codepen by Shvvffle
+            <br>Adjusted and changed to be more responsive and in my opinion more seamless
+            <br>adjustments are still needed and is not completed.
+          </p>
+          <ul class="portfolio-tags">
+            <li class="portfolio-tag">JQUERY</li>
+            <li class="portfolio-tag">BOOTSTRAP</li>
+            <li class="portfolio-tag">HTML/CSS</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+    <!-- 2 -->
+      <div class="col-md-6 grid-portfolio">
+        <div class="portfolio-item-ct">
+          <div class="thumbnail">
+            <img src="https://i.ibb.co/cCtMD2B/Beauty.png" alt="Portfolio - ECUMASTER UK" class="img-responsive">
+            <div class="textbox-portfolio">
+              <div class="button-weblink">
+                <a href="#" target="_blank"><span class="fa fa-link portfolio-link" aria-hidden="true"></span></a>
+              </div>
+            </div>
+        </div>
+
+        <div class="caption portfolio-details">
+          <h3>Beauty By Pippa</h3>
+          <p>Responsive website done for Beauty By Pippa using Joomla.
+            <br>Based on Wunderlust Theme.
+            <br>Ionicons, Bootstrap, JavaScript and More. (WIP)
+          </p>
+          <ul class="portfolio-tags">
+            <li class="portfolio-tag">PROJECT</li>
+            <li class="portfolio-tag">JOOMLA</li>
+            <li class="portfolio-tag">SEO</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="container">
+  <h2>SERVICES</h2>
+    <div class="row">
+      <div class="ct-services">
+
+        <div class="col-md-4 services-item">
+          <div class="rotate">
+            <span class="fas fa-code" aria-hidden="true"></span>
+          </div>
+          <h3>Front End Development</h3>
+          <p>Development of responsive websites, cross-browser and cross-platform testing.</p>
+        </div>
+
+        <div class="col-md-4 services-item">
+          <div class="rotate">
+            <span class="fab fa-joomla fa-wrapper" aria-hidden="true"></span>
+          </div>
+          <h3>Joomla Development</h3>
+          <p>Custom development (website, theme & plugin), hosting and maintenance.</p>
+        </div>
+
+        <div class="col-md-4 services-item">
+          <div class="rotate">
+            <span class="fas fa-chart-line" aria-hidden="true"></span>
+          </div>
+          <h3>Search Engine Optimization</h3>
+          <p>Increase your visibility across all major search engines & local search with SEO techniques.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimionals">
+  <div class="testimionals-bg">
+    <div class="container testimionals-bg-opacity">
+      <h2>TESTIMONIALS</h2>
+      <div><span class="fa fa-quote-left quotes" aria-hidden="true"></span>
+      </div>
+      <div id="slider-testimionals" class="carousel slide" data-ride="carousel">
+
+        <ol class="carousel-indicators">
+          <li data-target="#slider-testimionals" data-slide-to="0" class="active"></li>
+          <li data-target="#slider-testimionals" data-slide-to="1"></li>
+          <li data-target="#slider-testimionals" data-slide-to="2"></li>
+          <li data-target="#slider-testimionals" data-slide-to="3"></li>
+        </ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <div class="item active">
+            <div class="row">
+              <div class="col-md-6 col-md-offset-3">
+                <div class="carousel-caption">
+                  <p>Aliquam ullamcorper sagittis orci, vel aliquet sapien euismod non. Vestibulum euismod turpis faucibus lorem dignissim facilisis.</p>
+                  <p class="client">consectetur adipiscing elit.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="row">
+              <div class="col-md-6 col-md-offset-3">
+                <div class="carousel-caption">
+                  <p>Aliquam ullamcorper sagittis orci, vel aliquet sapien euismod non. Vestibulum euismod turpis faucibus lorem dignissim facilisis.</p>
+                  <p class="client">consectetur adipiscing elit.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="row">
+              <div class="col-md-6 col-md-offset-3">
+                <div class="carousel-caption">
+                  <p>Aliquam ullamcorper sagittis orci, vel aliquet sapien euismod non. Vestibulum euismod turpis faucibus lorem dignissim facilisis.</p>
+                  <p class="client">consectetur adipiscing elit.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="row">
+              <div class="col-md-6 col-md-offset-3">
+                <div class="carousel-caption">
+                  <p>Aliquam ullamcorper sagittis orci, vel aliquet sapien euismod non. Vestibulum euismod turpis faucibus lorem dignissim facilisis.</p>
+                  <p class="client">consectetur adipiscing elit.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer id="contact">
+  <div class="container">
+    <div class="row">
+      <h2>CONTACT</h2>
+      <p>To contact me about a quote or a question please feel free to email me.
+        <br>You can email me at: email&commat;gmail.com
+        <br>Or if you want to check out my social media pages, they are linked below.
+      </p>
+      <div class="social">
+        <a href="https://codepen.io/AdamWheater/" target="_blank"><span class="fab fa-codepen" aria-hidden="true"></span></a>
+        <a href="https://www.linkedin.com/in/adamwheater/" target="_blank"><span class="fab fa-linkedin" aria-hidden="true"></span></a>
+        <a href="https://github.com/AdamWheater" target="_blank"><span class="fab fa-github" aria-hidden="true"></span></a>
+      </div>
+      <p id="copyright"></p>
+    </div>
+  </div>
+</footer>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://shvvffle.github.io/js/jquery.easing.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
